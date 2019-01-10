@@ -70,7 +70,7 @@
     // ...
   ];
 
-  // best
+  // 가장 좋은 예
   import TextMessageContainer from './containers/TextMessageContainer';
 ```
 
