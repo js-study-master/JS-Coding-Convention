@@ -168,37 +168,37 @@
 
 2.4 연산자는 모두 양 옆에 공백을 두세요.
 ```javascript
-  // bad
+  // 나쁜 예
   const x=y+5;
 
-  // good
+  // 좋은 예
   const x = y + 5;
 ```
 2.5 블록 다음과 다음 문 시작 전엔 한 줄을 띄우세요.
 ```javascript
-  // bad
+  // 나쁜 예
   if (foo) {
     return bar;
   }
   return baz;
 
-  // good
+  // 좋은 예
   if (foo) {
     return bar;
   }
 
   return baz;
 
-  // bad
+  // 나쁜 예
   const obj = {
     foo() {
     },
-    bar() {
+    bar() 쁜
     },
   };
   return obj;
 
-  // good
+  // 좋은 예
   const obj = {
     foo() {
     },
@@ -209,8 +209,8 @@
 
   return obj;
 
-  // bad
-  const arr = [
+  // 나쁜 예
+  const arr = 쁜
     function foo() {
     },
     function bar() {
@@ -218,7 +218,7 @@
   ];
   return arr;
 
-  // good
+  // 좋은 예
   const arr = [
     function foo() {
     },
